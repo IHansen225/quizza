@@ -1643,7 +1643,7 @@
     "121": {
         "q": "Question 15\n\nYou need to share unstructured data through a secure view. Which functions can be used",
         "opt": {
-            "0": ".",
+            "0": "BUILD_FILE_URL",
             "1": "BUILD_STAGE_FILE_URL",
             "2": "GET_RELATIVE_PATH",
             "3": "GET_PRESIGNED_URL",
@@ -1658,7 +1658,7 @@
     "122": {
         "q": "Question 16\n\nWhy should a Snowflake user implement a secure view",
         "opt": {
-            "0": ".",
+            "0": "To show the view definition",
             "1": "To enforce MANAGED ACCESS schemas",
             "2": "To hide the view definition",
             "3": "To encrypt data in transit",
@@ -1711,7 +1711,7 @@
     "126": {
         "q": "Question 20\n\nHow can data sharing be used across regions and cloud platforms",
         "opt": {
-            "0": ".",
+            "0": "Data cannot be cloned across regions and a share can be created on the clone",
             "1": "Data can be shared across regions using database replication, but not across different cloud providers",
             "2": "A share cannot be created on a replica, so sharing across regions and cloud platforms is not possible",
             "3": "Data can be cloned across regions and a share can be created on the clone",
@@ -1848,7 +1848,7 @@
     "136": {
         "q": "Question 30\n\nWhat privileges can be granted to a role to specify which operations that role can perform on a virtual warehouse",
         "opt": {
-            "0": ".",
+            "0": "Delete",
             "1": "Monitor",
             "2": "Ownership",
             "3": "Update",
