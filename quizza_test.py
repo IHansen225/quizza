@@ -1,5 +1,7 @@
-import json
 import os
+os.system('pip install art')
+
+import json
 import time
 import random
 import sys
@@ -10,7 +12,6 @@ import ctypes
 
 os.system('cls' if os.name == 'nt' else 'clear')
 print("Installing required packages...")
-os.system('pip install -r requirements.txt')
 time.sleep(2)
 
 print("Loading questions...")
@@ -230,7 +231,7 @@ To exit the exam, type 'exit'.
     action("practice", quant)
 
 print("""
-                    ⠀               ⣠⣤⣶⣶⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀              ⣠⣤⣶⣶⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣷⣤⠀⠈⠙⢿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⣿⠆⠰⠶⠀⠘⢿⣿⣿⣿⣿⣿⣆⠀⠀⠀
